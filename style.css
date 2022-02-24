@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.coloredGuide{
+    background: linear-gradient(135deg, #6ac982, #4ab98d);
+    background: linear-gradient(135deg, #ac7e64, #6b4c49);
+    background: linear-gradient(135deg, #b64c39, #6d151b);
+    background: linear-gradient(135deg, #5dd1f8, #0074cb);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 570px;
+    height: 330px;
+    position: relative;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
+    margin: 20px;
+    text-shadow: black 2px 5px;
+}
+
+.card img{
+    position: absolute;
+    bottom: 0;
+    cursor: cell;
+    transition: 0.7s;
+}
+
+.Image1{
+    height: 380px;
+}
+
+.Image1:hover{
+    height: 400px;
+}
+
+.Image2{
+    height: 350px;
+    right: 10px;
+}
+
+.Image2:hover{
+    height: 370px;
+}
+
+.color1{
+    background: linear-gradient(135deg, #6ac982, #4ab98d);
+   
+}
+
+.color2{
+    background: linear-gradient(135deg, #ac7e64, #6b4c49);
+   
+}
+
+.color3{
+    background: linear-gradient(135deg, #b64c39, #6d151b);
+}
+
+.color4{
+    background: linear-gradient(135deg, #5dd1f8, #0074cb);
+}
+
+h3{
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+h4{
+    font-size: 25px;
+    color: whitesmoke;
+    line-height: 1.4em;
+}
+
+
+.textright{
+    width: 45%;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    line-height: 0;
+}
+
+.textleft{
+    width: 40%;
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    line-height: 0;
+}
+
+@media screen and (max-width: 1240px){
+    .card{
+        width: 45%;
+        height: 320px;
+    }
+}
+
+
+@media screen and (max-width: 820px){
+    .card{
+        width: 90%;
+        height: 320px;
+    }
+}
+
+
+@media screen and (max-width: 520px){
+    .card{
+        width: 100%;
+        height: 220px;
+        text-shadow: black 3px 2px;
+    }
+
+    .textleft{
+        width: 40%;
+        left: 10px
+    }
+
+    .textright{
+        width: 40%;
+        right: 20px;
+    }
+
+    .Image1{
+        height: 250px;
+        left: -10px;
+    }
+
+    .Image1:hover{
+        height: 270px;
+    }
+
+    .Image2{
+        height: 230px;
+        right: 0;
+    }
+
+    .Image2:hover{
+        height: 250px;
+    }
+
+    h3{
+        font-size: 35px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .textright{
+        top: 70px;
+        right: 0;
+
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
